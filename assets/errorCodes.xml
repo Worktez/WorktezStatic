@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component name="BODY" code="00">
+  <SubComponent name="CREATE-NEW-TASK" code="01">
+    <SubSystem code="0000">
+      <InternalError code="00">
+        <Error code="02" description="SERVER_ERROR"></Error>
+        <Api code="03" description= "API_ERROR"></Api>
+        </InternalError>
+      <ExternalError code="01">
+        <Error code="01" description="VALIDATION_ERROR"></Error>
+      </ExternalError>
+    </SubSystem>
+  </SubComponent>
+
+  <SubComponent name="CREATE-NEW-SPRINT" code="02">
+   <SubSystem code="0000">
+      <InternalError code="00">
+        <Error code="02" description="SERVER_ERROR"></Error>
+        <Api code="03" description= "API_ERROR"></Api>
+        </InternalError>
+      <ExternalError code="01">
+        <Error code="01" description="VALIDATION_ERROR"></Error>
+      </ExternalError>
+    </SubSystem>
+  </SubComponent>
+
+  <SubComponent name="LOG-WORK" code="03">
+   <SubSystem code="0000">
+      <InternalError code="00">
+        <Error code="02" description="SERVER_ERROR"></Error>
+        <Api code="03" description= "API_ERROR"></Api>
+        </InternalError>
+      <ExternalError code="01">
+        <Error code="01" description="VALIDATION_ERROR"></Error>
+      </ExternalError>
+    </SubSystem>
+  </SubComponent>
+
+  <SubComponent name="EDIT-TASK" code="04">
+   <SubSystem code="0000">
+      <InternalError code="00">
+        <Error code="02" description="SERVER_ERROR"></Error>
+        <Api code="03" description= "API_ERROR"></Api>
+        </InternalError>
+      <ExternalError code="01">
+        <Error code="01" description="VALIDATION_ERROR"></Error>
+      </ExternalError>
+    </SubSystem>
+  </SubComponent>
+
+  <SubComponent name="SPRINT-DETAILS" code="05">
+   <SubSystem code="0000">
+      <InternalError code="00">
+        <Error code="02" description="SERVER_ERROR"></Error>
+        <Api code="03" description= "API_ERROR"></Api>
+        </InternalError>
+      <ExternalError code="01">
+        <Error code="01" description="VALIDATION_ERROR"></Error>
+      </ExternalError>
+      </SubSystem>
+  </SubComponent>
+
+  <SubComponent name="LOGIN" code="06">
+   <SubSystem code="0000">
+      <InternalError code="00">
+        <Error code="02" description="SERVER_ERROR"></Error>
+        <Api code="03" description= "API_ERROR"></Api>
+        </InternalError>
+      <ExternalError code="01">
+        <Error code="01" description="VALIDATION_ERROR"></Error>
+      </ExternalError>
+      </SubSystem>
+  </SubComponent>
+
+  <SubComponent name="RANGE-CARD" code="07">
+   <SubSystem code="0000">
+      <InternalError code="00">
+        <Error code="02" description="SERVER_ERROR"></Error>
+        <Api code="03" description= "API_ERROR"></Api>
+        </InternalError>
+      <ExternalError code="01">
+        <Error code="01" description="VALIDATION_ERROR"></Error>
+      </ExternalError>
+    </SubSystem>
+  </SubComponent>
+
+  <SubComponent name="TASK-DETAILS" code="08">
+   <SubSystem code="0000">
+      <InternalError code="00">
+        <Error code="02" description="SERVER_ERROR"></Error>
+        <Api code="03" description= "API_ERROR"></Api>
+        </InternalError>
+      <ExternalError code="01">
+        <Error code="01" description="VALIDATION_ERROR"></Error>
+      </ExternalError>
+      </SubSystem>
+  </SubComponent>
+   <SubComponent name="ORGANIZATION-DETAILS" code="09">
+      <SubSystem code="0000">
+        <InternalError code="00">
+          <Error code="02" description="SERVER_ERROR"></Error>
+          <Api code="03" description= "API_ERROR"></Api>
+        </InternalError>
+        <ExternalError code="01">
+          <Error code="01" description="VALIDATION_ERROR"></Error>
+        </ExternalError>
+      </SubSystem>
+  </SubComponent>
+    <SubComponent name="TEAM-DETAILS" code="10">
+      <SubSystem code="0000">
+        <InternalError code="00">
+          <Error code="02" description="SERVER_ERROR"></Error>
+          <Api code="03" description= "API_ERROR"></Api>
+        </InternalError>
+        <ExternalError code="01">
+          <Error code="01" description="VALIDATION_ERROR"></Error>
+        </ExternalError>
+      </SubSystem>
+  </SubComponent>
+   <SubComponent name="ADD-MEMBER" code="11">
+      <SubSystem code="0000">
+        <InternalError code="00">
+          <Error code="02" description="SERVER_ERROR"></Error>
+          <Api code="03" description= "API_ERROR"></Api>
+        </InternalError>
+        <ExternalError code="01">
+          <Error code="01" description="VALIDATION_ERROR"></Error>
+        </ExternalError>
+      </SubSystem>
+  </SubComponent>
+  <SubComponent name="BOARD" code="12">
+      <SubSystem code="0000">
+        <InternalError code="00">
+          <Error code="02" description="SERVER_ERROR"></Error>
+          <Api code="03" description= "API_ERROR"></Api>
+        </InternalError>
+        <ExternalError code="01">
+          <Error code="01" description="VALIDATION_ERROR"></Error>
+        </ExternalError>
+      </SubSystem>
+  </SubComponent>
+  <SubComponent name="PERFORMANCE-COLUMN-CHART" code="13">
+      <SubSystem code="0000">
+        <InternalError code="00">
+          <Error code="02" description="SERVER_ERROR"></Error>
+          <Api code="03" description= "API_ERROR"></Api>
+        </InternalError>
+        <ExternalError code="01">
+          <Error code="01" description="VALIDATION_ERROR"></Error>
+        </ExternalError>
+      </SubSystem>
+  </SubComponent>
+  <SubComponent name="SPRINT-BURNDOWN-CHART" code="13">
+      <SubSystem code="0000">
+        <InternalError code="00">
+          <Error code="02" description="SERVER_ERROR"></Error>
+          <Api code="03" description= "API_ERROR"></Api>
+        </InternalError>
+        <ExternalError code="01">
+          <Error code="01" description="VALIDATION_ERROR"></Error>
+        </ExternalError>
+      </SubSystem>
+  </SubComponent>
+  <SubComponent name="SPRINT-EVALUATION-GRAPH" code="14">
+      <SubSystem code="0000">
+        <InternalError code="00">
+          <Error code="02" description="SERVER_ERROR"></Error>
+          <Api code="03" description= "API_ERROR"></Api>
+        </InternalError>
+        <ExternalError code="01">
+          <Error code="01" description="VALIDATION_ERROR"></Error>
+        </ExternalError>
+      </SubSystem>
+  </SubComponent>
+   <SubComponent name="THEME" code="15">
+      <SubSystem code="0000">
+        <InternalError code="00">
+          <Error code="02" description="SERVER_ERROR"></Error>
+          <Api code="03" description= "API_ERROR"></Api>
+        </InternalError>
+        <ExternalError code="01">
+          <Error code="01" description="VALIDATION_ERROR"></Error>
+        </ExternalError>
+      </SubSystem>
+  </SubComponent>
+  <SubComponent name="UPDATE-IMAGE" code="16">
+      <SubSystem code="0000">
+        <InternalError code="00">
+          <Error code="02" description="SERVER_ERROR"></Error>
+          <Api code="03" description= "API_ERROR"></Api>
+        </InternalError>
+        <ExternalError code="01">
+          <Error code="01" description="VALIDATION_ERROR"></Error>
+        </ExternalError>
+      </SubSystem>
+  </SubComponent>
+  <SubComponent name="Contributors" code="17">
+      <SubSystem code="0000">
+        <InternalError code="00">
+          <Error code="02" description="SERVER_ERROR"></Error>
+          <Api code="03" description= "API_ERROR"></Api>
+        </InternalError>
+        <ExternalError code="01">
+          <Error code="01" description="VALIDATION_ERROR"></Error>
+        </ExternalError>
+      </SubSystem>
+  </SubComponent>
+  <SubComponent name="CREATE-NEW-TEAM" code="18">
+      <SubSystem code="0000">
+        <InternalError code="00">
+          <Error code="02" description="SERVER_ERROR"></Error>
+          <Api code="03" description= "API_ERROR"></Api>
+        </InternalError>
+        <ExternalError code="01">
+          <Error code="01" description="VALIDATION_ERROR"></Error>
+        </ExternalError>
+      </SubSystem>
+  </SubComponent>
+  <SubComponent name="PERFORMANCE-CHART" code="19">
+      <SubSystem code="0000">
+        <InternalError code="00">
+          <Error code="02" description="SERVER_ERROR"></Error>
+          <Api code="03" description= "API_ERROR"></Api>
+        </InternalError>
+        <ExternalError code="01">
+          <Error code="01" description="VALIDATION_ERROR"></Error>
+        </ExternalError>
+      </SubSystem>
+  </SubComponent>
+  <SubComponent name="PROFILE" code="20">
+      <SubSystem code="0000">
+        <InternalError code="00">
+          <Error code="02" description="SERVER_ERROR"></Error>
+          <Api code="03" description= "API_ERROR"></Api>
+        </InternalError>
+        <ExternalError code="01">
+          <Error code="01" description="VALIDATION_ERROR"></Error>
+        </ExternalError>
+      </SubSystem>
+  </SubComponent>
+  <SubComponent name="QUICK-NOTES" code="21">
+      <SubSystem code="0000">
+        <InternalError code="00">
+          <Error code="02" description="SERVER_ERROR"></Error>
+          <Api code="03" description= "API_ERROR"></Api>
+        </InternalError>
+        <ExternalError code="01">
+          <Error code="01" description="VALIDATION_ERROR"></Error>
+        </ExternalError>
+      </SubSystem>
+  </SubComponent>
+  <SubComponent name="RELEASE NOTES" code="22">
+      <SubSystem code="0000">
+        <InternalError code="00">
+          <Error code="02" description="SERVER_ERROR"></Error>
+          <Api code="03" description= "API_ERROR"></Api>
+        </InternalError>
+        <ExternalError code="01">
+          <Error code="01" description="VALIDATION_ERROR"></Error>
+        </ExternalError>
+      </SubSystem>
+  </SubComponent>
+   <SubComponent name="LINK" code="23">
+      <SubSystem code="0000">
+        <InternalError code="00">
+          <Error code="02" description="SERVER_ERROR"></Error>
+          <Api code="03" description= "API_ERROR"></Api>
+        </InternalError>
+        <ExternalError code="01">
+          <Error code="01" description="VALIDATION_ERROR"></Error>
+        </ExternalError>
+      </SubSystem>
+  </SubComponent>
+   <SubComponent name="TASKS-EVALUATION" code="24">
+      <SubSystem code="0000">
+        <InternalError code="00">
+          <Error code="02" description="SERVER_ERROR"></Error>
+          <Api code="03" description= "API_ERROR"></Api>
+        </InternalError>
+        <ExternalError code="01">
+          <Error code="01" description="VALIDATION_ERROR"></Error>
+        </ExternalError>
+      </SubSystem>
+  </SubComponent>
+  <SubComponent name="LIST-PATCHES" code="24">
+      <SubSystem code="0000">
+        <InternalError code="00">
+          <Error code="02" description="SERVER_ERROR"></Error>
+          <Api code="03" description= "API_ERROR"></Api>
+        </InternalError>
+        <ExternalError code="01">
+          <Error code="01" description="VALIDATION_ERROR"></Error>
+        </ExternalError>
+      </SubSystem>
+  </SubComponent>
+  <SubComponent name="PATCHES" code="25">
+      <SubSystem code="0000">
+        <InternalError code="00">
+          <Error code="02" description="SERVER_ERROR"></Error>
+          <Api code="03" description= "API_ERROR"></Api>
+        </InternalError>
+        <ExternalError code="01">
+          <Error code="01" description="VALIDATION_ERROR"></Error>
+        </ExternalError>
+      </SubSystem>
+  </SubComponent>
+  <SubComponent name="USER-VERIFICATION" code="26">
+      <SubSystem code="0000">
+        <InternalError code="00">
+          <Error code="02" description="SERVER_ERROR"></Error>
+          <Api code="03" description= "API_ERROR"></Api>
+        </InternalError>
+        <ExternalError code="01">
+          <Error code="01" description="VALIDATION_ERROR"></Error>
+        </ExternalError>
+      </SubSystem>
+  </SubComponent>
+  <SubComponent name="CREATE-NEW-TEAM" code="2">
+      <SubSystem code="0000">
+        <InternalError code="00">
+          <Error code="02" description="SERVER_ERROR"></Error>
+          <Api code="03" description= "API_ERROR"></Api>
+        </InternalError>
+        <ExternalError code="01">
+          <Error code="01" description="VALIDATION_ERROR"></Error>
+        </ExternalError>
+      </SubSystem>
+  </SubComponent>
+  <SubComponent name="KANBAN-CARD" code="28">
+      <SubSystem code="0000">
+        <InternalError code="00">
+          <Error code="02" description="SERVER_ERROR"></Error>
+          <Api code="03" description= "API_ERROR"></Api>
+        </InternalError>
+        <ExternalError code="01">
+          <Error code="01" description="VALIDATION_ERROR"></Error>
+        </ExternalError>
+      </SubSystem>
+  </SubComponent>
+    <SubComponent name="QUICK-NOTES" code="29">
+      <SubSystem code="0000">
+        <InternalError code="00">
+          <Error code="02" description="SERVER_ERROR"></Error>
+          <Api code="03" description= "API_ERROR"></Api>
+        </InternalError>
+        <ExternalError code="01">
+          <Error code="01" description="VALIDATION_ERROR"></Error>
+        </ExternalError>
+      </SubSystem>
+  </SubComponent>
+  <SubComponent name="SOCIAL-PAGE" code="30">
+      <SubSystem code="0000">
+        <InternalError code="00">
+          <Error code="02" description="SERVER_ERROR"></Error>
+          <Api code="03" description= "API_ERROR"></Api>
+        </InternalError>
+        <ExternalError code="01">
+          <Error code="01" description="VALIDATION_ERROR"></Error>
+        </ExternalError>
+      </SubSystem>
+  </SubComponent>
+  <SubComponent name="MILESTONES" code="31">
+      <SubSystem code="0000">
+        <InternalError code="00">
+          <Error code="02" description="SERVER_ERROR"></Error>
+          <Api code="03" description= "API_ERROR"></Api>
+        </InternalError>
+        <ExternalError code="01">
+          <Error code="01" description="VALIDATION_ERROR"></Error>
+        </ExternalError>
+      </SubSystem>
+  </SubComponent>
+
+     <SubComponent name="SCHEDULE-MEET" code="32">
+    <SubSystem code="0000">
+      <InternalError code="00">
+        <Error code="02" description="SERVER_ERROR"></Error>
+        <Api code="03" description= "API_ERROR"></Api>
+        </InternalError>
+      <ExternalError code="01">
+        <Error code="01" description="VALIDATION_ERROR"></Error>
+      </ExternalError>
+    </SubSystem>
+  </SubComponent>
+</Component>
