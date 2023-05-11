@@ -1,0 +1,373 @@
+/*********************************************************** 
+* Copyright (C) 2022 
+* Worktez 
+* 
+* This program is free software; you can redistribute it and/or 
+* modify it under the terms of the MIT License 
+* 
+* 
+* This program is distributed in the hope that it will be useful, 
+* but WITHOUT ANY WARRANTY; without even the implied warranty of 
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. 
+* See the MIT License for more details. 
+***********************************************************/
+*{
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
+}
+
+#home {
+    background-color: #ffffff;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+
+#headingLine {
+    width: 90%;
+    height: 85%;
+    color: #4E4E4E;
+    font-size: 34px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    line-height: 2.5rem;
+}
+
+#headingLine2 {
+    width: 100%;
+    height: 85%;
+    color: #4E4E4E;
+    font-size: 14px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    line-height: 1.5rem;
+}
+
+#conceptArt {
+    display: inline;
+}
+
+.videoButton, .demoButton  {
+    background-color: #5559D9 !important;
+    color: #ffffff !important;
+    border-radius: 50px !important; 
+    text-align:center !important;
+    border: none !important;
+}
+.demoButton{
+    font-size: 16px !important;
+}
+.videoButton{
+    font-size: 14px !important;
+}
+
+.boxShadow {
+    width: 100%;
+    min-width: 20rem;
+    border-radius: 20px;
+    text-align: justify;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    /* box-shadow: 0px 7px 6px 1px #ebecefa5; */
+    cursor: pointer;
+}
+
+/* .boxShadow:hover {
+    box-shadow: 0px 0px 8px 5px #f2fde4;
+} */
+
+.gitService {
+    background-color: #FFF3E0;
+}
+
+.kanbanService {
+    background-color: #E0F2F1;
+}
+
+.dashService {
+    background-color: #E3F2FD;
+}
+
+.orgService {
+    background-color: #EDE7F6;
+}
+
+.qnService {
+    background-color: #FFF8E1;
+}
+
+.tvService {
+    background-color: #E8EAF6;
+}
+
+.mileService {
+    background-color: #E8F5E9;
+}
+
+.meetService {
+    background-color: #E3F2FD;
+}
+
+.leanrMore {
+    color: #2979FF;
+}
+
+.leanrMore:hover {
+    /* font-size: large; */
+    font-weight: bold;
+}
+
+#services,
+#features {
+    background-color: #ffffff;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.serviceButton {
+    text-align: justify;
+    font-family: 'Plus Jakarta Sans', sans-serif !important ;
+    font-size: 20px;
+}
+
+.serviceText {
+    text-align: justify;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5rem;
+}
+
+#gitText {
+    color: #E84D31;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+#kanbanText {
+    color: #00867D;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+#dashboardText {
+    color: #2979FF;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+#organizeText {
+    color: #6325AC;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+#qnText {
+    color: #FFA000;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+#ttText {
+    color: #4042E2;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+#milestionesText {
+    color: #087F23;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+#meetText {
+    color: #2962FF;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.icons {
+    width: 3rem;
+    height: 3rem;
+}
+
+.icons1 {
+    width: 5rem;
+    height: 5rem;
+}
+
+.featureHeading {
+    font-size: 24px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+#featureContent {
+    color: #767676;
+    font-size: 16px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    line-height: 1.5rem;
+    text-align: justify;
+}
+
+#howItWorks {
+    background-color: #4006BA;
+    height: 100%;
+}
+
+#hiwContent {
+    color: #ffffff;
+    font-size: 24px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.getStarted {
+    background-color: #ffffff !important;
+    color: #4006BA !important;
+    display: block;
+    border-radius:50px !important;
+    text-align:center !important;
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
+    border: none !important;
+}
+
+#testimonialHeading {
+    color: #4006BA;
+    font-size: 28px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+#testimonial {
+    background-color: #ffffff;
+}
+
+#mover {
+    color: #ffffff;
+}
+
+
+.arrow {
+    font-size: 24px;
+    cursor: pointer;
+    color: #4006BA;
+}
+
+.arrow:hover {
+    font-size: 27px;
+    font-weight: bolder;
+    color: #5559D9;
+}
+
+@media only screen and (max-width: 600px) {
+    #headingLine {
+        font-size: 35px;
+        width: 100%;
+    }
+
+    #conceptArt {
+        display: none;
+    }
+
+    .boxShadow {
+        width: 8rem;
+    }
+
+    .icons, .icons1 {
+        width: 50px;
+        height: 50px;
+    }
+
+    .serviceButton {
+        font-size: 20px;
+    }
+
+    .art {
+        display: none;
+    }
+
+    #featureHeading {
+        font-size: 18px;
+    }
+
+    #featureContent {
+        width: 100%;
+    }
+
+    .arrow {
+        font-size: 20px;
+    }
+
+    .arrow:hover {
+        font-size: 24px;
+    }
+}
+
+
+
+/* Testimonials Css */
+
+.card {
+    background-color: #ffffff !important;
+    border: none !important;
+    width: 30rem !important;
+    height: 10rem !important;
+    border-radius: 15px !important;
+    box-shadow: 2px 6px 10px #ebecefa5 !important;
+}
+
+.card-title {
+    font-size: 18px !important;
+}
+
+.card-text {
+    font-size: 10px !important;
+}
+
+.photo {
+    width: 50px;
+    height: 50px;
+}
+
+.imageCheck {
+    position: absolute !important;
+    top: -15px !important;
+    left: 0px !important;
+}
+
+.showCase {
+    background-color: transparent;
+    width: px !important;
+    max-height: auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    flex-wrap: nowrap;
+    scroll-behavior: smooth;
+}
+
+.showCase::-webkit-scrollbar {        
+    display: none;  
+}
+
+@media only screen and (max-width: 600px) {
+    .card {
+        width: 18rem;
+        height: 100%;
+    }
+    .card-title {
+        font-size: 12px;
+    }
+
+    .card-text {
+        font-size: 10px;
+    }
+
+    span {
+        font-size: 11px;
+    }
+    a{
+        font-size: 11px;
+    }
+    #txtLeft{
+        text-align: left !important;
+    }
+    #txtCenter{
+        text-align:center !important;
+    }
+}
+
+
+.loginBtn:focus
+.loginBtn:active,
+.loginBtn:hover {
+    background-color: #DDDEF4 ;
+    color: #5559D9 ;
+    box-shadow: none ;
+}
+a:hover{
+    color: #5559D9 !important;
+    cursor: pointer;
+}
