@@ -1,1 +1,3 @@
-This is the repo for Worktez Static
+This repository is to hold the static pages associated with Worktez.com. 
+
+
