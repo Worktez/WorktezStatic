@@ -46,7 +46,7 @@
                 </a>
                 <ul class="nav nav-pills" style="display: inline-flex; font-size: 12px;">
                     <li class="nav-item" >
-                        <a class="nav-link" href="../../pricing/pricing.html" style="color: #838CAB;">Pricing</a>
+                        <a class="nav-link" href="../../pricing/pricing" style="color: #838CAB;">Pricing</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/#services" style="color: #838CAB;">Services</a>
@@ -55,7 +55,7 @@
                         <a class="nav-link" href="/#aboutUs" style="color: #838CAB;">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../../documentations/documentations.html" style="color: #838CAB;">Docs</a>
+                        <a class="nav-link" href="../../documentations/documentations" style="color: #838CAB;">Docs</a>
                     </li>
                     
                     <li class="nav-item">
@@ -125,7 +125,79 @@
 
 
 <!-- Footer -->
-    <div id="footer" class="mt-4"></div>
+    <!-- <div id="footer" class="mt-4"></div> -->
+    <footer class="font-small pt-4 mt-4" id="page-footer" style="color: #1B1F23; background-color: #ffffff !important; padding-left: 50px; padding-right: 50px; width: 100%; box-shadow: 4px 4px #464750;">
+        <div class="row">
+            <div class="col-md-2 col-1"></div>
+            <div class="col">
+                <div class="row">
+                    <div class="col-8 col-md-4 company-text">
+                        <h3 style="font-size: 16px; font-weight: 500; max-width: 150px;">WorkTez</h3>
+                        <p style="font-size: 14px; max-width: 150px; overflow-wrap: break-word; line-height: 20px;">Simplify and organize the way teams work.</p>
+                    </div>
+                    <div class="col">
+                        <h3 class="footer-headings" style="font-size: 16px; font-weight:500;">Company</h3>
+                        <ul class="list-unstyled" style="font-size: 14px;">
+                            <li style="padding-bottom: 5px; cursor: pointer;">
+                                <a href="#!" style="text-decoration: none; color: #1B1F23;">About Us</a>
+                            </li>
+                            <li style="padding-bottom: 5px; cursor: pointer;">
+                                <a routerLink="/Pricing" style="text-decoration: none; color: #1B1F23;">Pricing</a>
+                            </li>
+                            <li style="padding-bottom: 5px; cursor: pointer;">
+                                <a href="#!" style="text-decoration: none; color: #1B1F23;">Features</a>
+                            </li>
+                            <li style="padding-bottom: 5px; cursor: pointer;">
+                                <a href='https://github.com/Worktez/worktez' style="text-decoration: none; color: #1B1F23;">Open Source</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col text-center">
+                        <h3 class="footer-headings" style="font-size: 16px; font-weight:500;">Resources</h3>
+                        <ul class="list-unstyled" style="font-size: 14px;">
+                            <li style="padding-bottom: 5px; cursor: pointer;">
+                                <span class="p-2" onclick="window.location='https://github.com/Worktez/worktez'">Explore Our Code</span>
+                            </li>
+                            <li style="padding-bottom: 5px; cursor: pointer;">
+                            <a href="https://www.youtube.com/watch?v=riiBlKkOLug" style="text-decoration: none; color: #1B1F23;">Getting Started</a>
+                            </li>
+                            <li style="padding-bottom: 5px; cursor: pointer;">
+                            <a href="https://www.youtube.com/channel/UC091zGHjjxypHZ7f5MbHVPg" style="text-decoration: none; color: #1B1F23;">Videos</a>
+                            </li>
+                            <li style="padding-bottom: 5px; cursor: pointer;">
+                                <a (click)="documentations()" style="text-decoration: none; color: #1B1F23;">Docs</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col text-right" id="txtLeft" style="text-align: right;">
+                        <h3 class="footer-headings" style="font-size: 16px; font-weight:500;">Reach Out to Us</h3>
+                        <ul class="list-unstyled" style="font-size: 14px;">
+                            <li style="padding-bottom: 5px; cursor: pointer;">
+                                <a (click)="requestDemo()" data-toggle="modal" data-target="#requestDemo" style="text-decoration: none; color: #1B1F23;">Request a demo</a>
+                            </li>
+                            <li style="padding-bottom: 5px; cursor: pointer;">
+                                <a href = "mailto:support@worktez.com" style="text-decoration: none; color: #1B1F23;">support@worktez.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <div class="row footer-copyright pb-5" style="cursor: pointer;">
+                    <div class="col-md-3 col" (click)='termsandcondition()' id="txtCenter">Terms & Conditions</div>
+                    <div class="col-md-1 col" id="txtCenter">|</div>
+                    <div class="col-md-2 col" (click)='privacy()'id="txtCenter">Privacy Policy</div>
+                    <div class="col-md-1 col" id="txtCenter">|</div>
+                    <div class="col-md-2 col" (click)="copyright()"id="txtCenter">License</div>
+                    <div class="col-md-3 col text-right"id="txtCenter" style="text-align: right;">
+                        <i fontSet="material-icons" class="align-middle pt-1 material-icons" style="font-size: 15px;">
+                            copyright
+                        </i>
+                            Copyright Worktez 2022. All Rights Reserved</div>
+                </div>
+            </div>
+            <div class="col-md-2 col-1"></div>
+        </div>
+    </footer>
 </div>
   
    <!-- Google tag (gtag.js) -->
@@ -142,8 +214,8 @@
    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
    <script>
     $(function(){
-        // $("#header").load("../../header/header.html");
-        $('#footer').load('../../footer/footer.html');
+        // $("#header").load("../../header/header");
+        // $('#footer').load('../../footer/footer');
     })
 
     </script>
