@@ -1,25 +1,39 @@
-/*********************************************************** 
-* Copyright (C) 2022 
-* Worktez 
-* 
-* This program is free software; you can redistribute it and/or 
-* modify it under the terms of the MIT License 
-* 
-* 
-* This program is distributed in the hope that it will be useful, 
-* but WITHOUT ANY WARRANTY; without even the implied warranty of 
-* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. 
-* See the MIT License for more details. 
-***********************************************************/
-*{
-    font-family: 'Plus Jakarta Sans', sans-serif !important;
+/** *********************************************************
+ * Copyright (C) 2022
+ * Worktez
+ * Author: Raunak Sharma <raunaksharma22345@gmail.com>
+ * This program is free software; you can redistribute it and/or
+ * modify it under the terms of the MIT License
+ *
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * See the MIT License for more details.
+ ***********************************************************/
+ html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
-#home {
-    background-color: #ffffff;
+a
+{
+    text-decoration: none;
+    color: #1B1F23;
+}
+
+#blogPage {
+    background-color: transparent;
     font-family: 'Plus Jakarta Sans', sans-serif;
+    width: 100%;
 }
 
+.featured{
+    background-color: #ffffff;
+    cursor: pointer;
+}
 
 #headingLine {
     width: 90%;
@@ -34,31 +48,13 @@
     width: 100%;
     height: 85%;
     color: #4E4E4E;
-    font-size: 14px;
+    font-size: 16px;
     font-family: 'Plus Jakarta Sans', sans-serif;
     line-height: 1.5rem;
 }
 
 #conceptArt {
     display: inline;
-}
-
-.videoButton, .demoButton  {
-    background-color: #5559D9 !important;
-    color: #ffffff !important;
-    border-radius: 50px !important; 
-    text-align:center !important;
-    border: none !important;
-}
-.demoButton{
-    font-size: 16px !important;
-}
-.videoButton{
-    font-size: 14px !important;
-    color: #ffffff !important;
-}
-.videoButton:hover{
-    color: #ffffff !important;
 }
 
 .boxShadow {
@@ -70,10 +66,6 @@
     /* box-shadow: 0px 7px 6px 1px #ebecefa5; */
     cursor: pointer;
 }
-
-/* .boxShadow:hover {
-    box-shadow: 0px 0px 8px 5px #f2fde4;
-} */
 
 .gitService {
     background-color: #FFF3E0;
@@ -108,8 +100,9 @@
 }
 
 .leanrMore {
+    margin-top: 10%;
     color: #2979FF;
-    text-align: right;
+    cursor: pointer;
 }
 
 .leanrMore:hover {
@@ -119,13 +112,12 @@
 
 #services,
 #features {
-    background-color: #ffffff;
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 .serviceButton {
     text-align: justify;
-    font-family: 'Plus Jakarta Sans', sans-serif !important ;
+    font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 20px;
 }
 
@@ -133,11 +125,11 @@
     text-align: justify;
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 16px;
-    line-height: 1.5rem;
+    line-height: 2rem;
 }
 
 #gitText {
-    color: #E84D31;
+    font-size: 24px;
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
@@ -211,12 +203,12 @@
 }
 
 .getStarted {
-    background-color: #ffffff !important;
-    color: #4006BA !important;
+    background-color: #ffffff;
+    color: #4006BA;
     display: block;
-    border-radius:50px !important;
-    text-align:center !important;
-    font-family: 'Plus Jakarta Sans', sans-serif !important;
+    border-radius:50px;
+    text-align:center;
+    font-family: 'Plus Jakarta Sans', sans-serif;
     border: none !important;
 }
 
@@ -234,15 +226,28 @@
     color: #ffffff;
 }
 
+.showCase {
+    background-color: transparent;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    flex-wrap: nowrap;
+    scroll-behavior: smooth;
+}
+
+.showCase::-webkit-scrollbar {        
+    display: none;  
+}
 
 .arrow {
-    font-size: 24px;
+    font-size: 34px;
     cursor: pointer;
+    color: #4006BA;
 }
 
 .arrow:hover {
-    height: 36px;
-    width: 36px;
+    font-size: 40px;
+    font-weight: bolder;
+    color: #5559D9;
 }
 
 @media only screen and (max-width: 600px) {
@@ -287,89 +292,4 @@
     .arrow:hover {
         font-size: 24px;
     }
-}
-
-
-
-/* Testimonials Css */
-
-.card {
-    background-color: #ffffff !important;
-    border: none !important;
-    width: 480px !important;
-    height: 160px !important;
-    border-radius: 15px !important;
-    box-shadow: 2px 6px 10px #ebecefa5 !important;
-}
-
-.card-title {
-    font-size: 18px !important;
-}
-
-.card-text {
-    font-size: 10px !important;
-}
-
-.photo {
-    width: 50px;
-    height: 50px;
-}
-
-.imageCheck {
-    position: absolute !important;
-    top: -15px !important;
-    left: 0px !important;
-}
-
-.showCase {
-    background-color: transparent;
-    max-height: auto;
-    overflow-x: scroll;
-    overflow-y: hidden;
-    flex-wrap: nowrap;
-    scroll-behavior: smooth;
-}
-
-.showCase::-webkit-scrollbar {        
-    display: none;  
-}
-
-@media only screen and (max-width: 600px) {
-    .card {
-        width: 18rem;
-        height: 100%;
-    }
-    .card-title {
-        font-size: 12px;
-    }
-
-    .card-text {
-        font-size: 10px;
-    }
-
-    span {
-        font-size: 11px;
-    }
-    a{
-        font-size: 11px;
-    }
-    #txtLeft{
-        text-align: left !important;
-    }
-    #txtCenter{
-        text-align:center !important;
-    }
-}
-
-
-.loginBtn:focus
-.loginBtn:active,
-.loginBtn:hover {
-    background-color: #DDDEF4 ;
-    color: #5559D9 ;
-    box-shadow: none ;
-}
-a:hover{
-    color: #5559D9 !important;
-    cursor: pointer;
 }
