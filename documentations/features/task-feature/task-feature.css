@@ -12,34 +12,22 @@
  * See the MIT License for more details.
  ***********************************************************/
  *{
-    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
 }
-
 .nav-link:hover{
     color: #5559D9 !important;
 }
 footer a:hover{
     color: #5559D9 !important;
 }
-
  .page {
-    /* background-color: #FFFFFF; */
-    font-family: 'Plus Jakarta Sans', sans-serif;
-}
-.heading{
-    font-size: 56px;
-    line-height: 4rem;
-
-}
-
-.page {
-    /* background-color: #FFFFFF; */
+    
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 .title {
     font-size: xx-large;
-    /* color: #0000e4; */
+    
 }
 .sub-title {
     font-size: 22px;
@@ -51,15 +39,15 @@ p {
     color: #1B1F23;
 }
 
-/* li{
+
+li.list-group-item{
     font-size: medium;
     text-align: justify;
     color: #1B1F23;
-} */
+}
 
 .card {
     background-color: #FFFFFF;
-    border: none;
     border: none;
 }
 
@@ -88,10 +76,30 @@ p {
     font-size: 12px;
 }
 
+a.atag{
+    text-decoration: none;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li.feature-item{
+    font-size: small;
+}
+
+.list-group-item {
+    border-width: 0 0 1px;
+}
+
+.contain .content {
+    display: none;
+    padding : 5px;
+}
+
 @media only screen and (max-width: 600px) {
-    .heading{
-        font-size: larger;
-    }
     .card-title {
         font-size: 12px;
     }
@@ -102,4 +110,4 @@ p {
     .submenu{
         font-size: 10px !important;
     }
-}
+} 

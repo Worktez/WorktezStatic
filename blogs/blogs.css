@@ -1,32 +1,31 @@
-/** *********************************************************
- * Copyright (C) 2022
- * Worktez
- * Author: Raunak Sharma <raunaksharma22345@gmail.com>
- * This program is free software; you can redistribute it and/or
- * modify it under the terms of the MIT License
- *
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
- * See the MIT License for more details.
- ***********************************************************/
- html {
-    font-family: sans-serif;
-    line-height: 1.15;
-    -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
+/*********************************************************** 
+* Copyright (C) 2022 
+* Worktez 
+* Author : Abhishek Mishra <am1426620@gmail.com>
+* 
+* This program is free software; you can redistribute it and/or 
+* modify it under the terms of the MIT License 
+* 
+* 
+* This program is distributed in the hope that it will be useful, 
+* but WITHOUT ANY WARRANTY; without even the implied warranty of 
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. 
+* See the MIT License for more details. 
+***********************************************************/
+*{
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
+}
+.nav-link:hover{
+    color: #5559D9 !important;
+}
+footer a:hover{
+    color: #5559D9 !important;
 }
 
-a
-{
-    text-decoration: none;
-    color: #1B1F23;
-}
 
 #blogPage {
-    background-color: transparent;
-    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #f4f5f7 ;
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
     width: 100%;
 }
 
@@ -44,210 +43,49 @@ a
     line-height: 2.5rem;
 }
 
-#headingLine2 {
-    width: 100%;
-    height: 85%;
-    color: #4E4E4E;
-    font-size: 16px;
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    line-height: 1.5rem;
-}
-
-#conceptArt {
-    display: inline;
-}
-
-.boxShadow {
-    width: 100%;
-    min-width: 20rem;
-    border-radius: 20px;
-    text-align: justify;
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    /* box-shadow: 0px 7px 6px 1px #ebecefa5; */
-    cursor: pointer;
-}
-
-.gitService {
-    background-color: #FFF3E0;
-}
-
-.kanbanService {
-    background-color: #E0F2F1;
-}
-
-.dashService {
-    background-color: #E3F2FD;
-}
-
-.orgService {
-    background-color: #EDE7F6;
-}
-
-.qnService {
-    background-color: #FFF8E1;
-}
-
-.tvService {
-    background-color: #E8EAF6;
-}
-
-.mileService {
-    background-color: #E8F5E9;
-}
-
-.meetService {
-    background-color: #E3F2FD;
-}
-
-.leanrMore {
+.learnMore {
     margin-top: 10%;
-    color: #2979FF;
+    color: #2979FF !important;
     cursor: pointer;
+    text-align: right;
+}
+a{
+    text-decoration: none;
+    color: inherit;
 }
 
-.leanrMore:hover {
+.learnMore:hover {
     /* font-size: large; */
     font-weight: bold;
 }
 
-#services,
-#features {
+.nav-link:hover{
+    color: #5559D9 !important;
+}
+footer a:hover{
+    color: #5559D9 !important;
+}
+
+
+#services
+{
     font-family: 'Plus Jakarta Sans', sans-serif;
+}
+p{
+    font-size: 14px !important;
 }
 
 .serviceButton {
     text-align: justify;
     font-family: 'Plus Jakarta Sans', sans-serif;
-    font-size: 20px;
+    font-size: 20px !important;
 }
 
 .serviceText {
     text-align: justify;
     font-family: 'Plus Jakarta Sans', sans-serif;
-    font-size: 16px;
+    font-size: 16px !important;
     line-height: 2rem;
-}
-
-#gitText {
-    font-size: 24px;
-    font-family: 'Plus Jakarta Sans', sans-serif;
-}
-
-#kanbanText {
-    color: #00867D;
-    font-family: 'Plus Jakarta Sans', sans-serif;
-}
-
-#dashboardText {
-    color: #2979FF;
-    font-family: 'Plus Jakarta Sans', sans-serif;
-}
-
-#organizeText {
-    color: #6325AC;
-    font-family: 'Plus Jakarta Sans', sans-serif;
-}
-
-#qnText {
-    color: #FFA000;
-    font-family: 'Plus Jakarta Sans', sans-serif;
-}
-
-#ttText {
-    color: #4042E2;
-    font-family: 'Plus Jakarta Sans', sans-serif;
-}
-
-#milestionesText {
-    color: #087F23;
-    font-family: 'Plus Jakarta Sans', sans-serif;
-}
-
-#meetText {
-    color: #2962FF;
-    font-family: 'Plus Jakarta Sans', sans-serif;
-}
-
-.icons {
-    width: 3rem;
-    height: 3rem;
-}
-
-.icons1 {
-    width: 5rem;
-    height: 5rem;
-}
-
-.featureHeading {
-    font-size: 24px;
-    font-family: 'Plus Jakarta Sans', sans-serif;
-}
-
-#featureContent {
-    color: #767676;
-    font-size: 16px;
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    line-height: 1.5rem;
-    text-align: justify;
-}
-
-#howItWorks {
-    background-color: #4006BA;
-    height: 100%;
-}
-
-#hiwContent {
-    color: #ffffff;
-    font-size: 24px;
-    font-family: 'Plus Jakarta Sans', sans-serif;
-}
-
-.getStarted {
-    background-color: #ffffff;
-    color: #4006BA;
-    display: block;
-    border-radius:50px;
-    text-align:center;
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    border: none !important;
-}
-
-#testimonialHeading {
-    color: #4006BA;
-    font-size: 28px;
-    font-family: 'Plus Jakarta Sans', sans-serif;
-}
-
-#testimonial {
-    background-color: #ffffff;
-}
-
-#mover {
-    color: #ffffff;
-}
-
-.showCase {
-    background-color: transparent;
-    overflow-x: scroll;
-    overflow-y: hidden;
-    flex-wrap: nowrap;
-    scroll-behavior: smooth;
-}
-
-.showCase::-webkit-scrollbar {        
-    display: none;  
-}
-
-.arrow {
-    font-size: 34px;
-    cursor: pointer;
-    color: #4006BA;
-}
-
-.arrow:hover {
-    font-size: 40px;
-    font-weight: bolder;
-    color: #5559D9;
 }
 
 @media only screen and (max-width: 600px) {
@@ -255,41 +93,7 @@ a
         font-size: 35px;
         width: 100%;
     }
-
-    #conceptArt {
-        display: none;
-    }
-
-    .boxShadow {
-        width: 8rem;
-    }
-
-    .icons, .icons1 {
-        width: 50px;
-        height: 50px;
-    }
-
     .serviceButton {
         font-size: 20px;
-    }
-
-    .art {
-        display: none;
-    }
-
-    #featureHeading {
-        font-size: 18px;
-    }
-
-    #featureContent {
-        width: 100%;
-    }
-
-    .arrow {
-        font-size: 20px;
-    }
-
-    .arrow:hover {
-        font-size: 24px;
     }
 }

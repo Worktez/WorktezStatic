@@ -11,6 +11,17 @@
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
  * See the MIT License for more details.
  ***********************************************************/
+ *{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.nav-link:hover{
+    color: #5559D9 !important;
+}
+footer a:hover{
+    color: #5559D9 !important;
+}
+ 
 .page {
     /* background-color: #FFFFFF; */
     font-family: 'Plus Jakarta Sans', sans-serif;
