@@ -1,3 +1,13 @@
+*{
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
+}
+.nav-link:hover{
+    color: #5559D9 !important;
+}
+footer a:hover{
+    color: #5559D9 !important;
+}
+
 .page {
     background-color: #FFFFFF;
     font-family: 'Plus Jakarta Sans', sans-serif;
@@ -8,6 +18,9 @@
     /* height: 20rem; */
     border: none;
     border-radius: 5px;
+}
+.card-title{
+    font-size: 16px;
 }
 
 .title {
@@ -20,11 +33,16 @@
     color: #4a26fd;
 } */
 
-mat-icon {
+.mat-icon {
     font-size: 3rem;
     width: 3rem;
     height: 3rem;
 }
+
+.mat-icon:hover {
+    fill: red;
+}
+
 
 .learn {
     font-size: 4rem;

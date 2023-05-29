@@ -12,9 +12,8 @@
  * See the MIT License for more details.
  ***********************************************************/
  *{
-    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
 }
-
 .nav-link:hover{
     color: #5559D9 !important;
 }
@@ -23,43 +22,42 @@ footer a:hover{
 }
 
  .page {
-    /* background-color: #FFFFFF; */
-    font-family: 'Plus Jakarta Sans', sans-serif;
-}
-.heading{
-    font-size: 56px;
-    line-height: 4rem;
-
-}
-
-.page {
-    /* background-color: #FFFFFF; */
-    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
+    background-color: #f4f5f7 ;
+    color: #4E4E4E !important;
 }
 
 .title {
     font-size: xx-large;
     /* color: #0000e4; */
 }
+
 .sub-title {
     font-size: 22px;
 }
+
 p {
     font-size: large;
     line-height: 1.8rem;
     text-align: justify;
-    color: #1B1F23;
+    /* color: #1B1F23; */
 }
 
-/* li{
-    font-size: medium;
+a.atag{
+    font-size: large;
+    line-height: 1.8rem;
     text-align: justify;
-    color: #1B1F23;
-} */
+    text-decoration: none;
+    color: #5559D9 !important;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
 
 .card {
     background-color: #FFFFFF;
-    border: none;
     border: none;
 }
 
@@ -68,9 +66,10 @@ p {
     border-radius: 5px;
 }
 
-.list-group-item:hover {
-    color: #5559D9;
+li .list-group-item{
     cursor: pointer;
+    font-size: medium;
+    color: #1B1F23;
 }
 
 .feature-item{
@@ -80,26 +79,21 @@ p {
     text-align: left;
 }
 
-.card-title {
-    font-size: 14px;
+
+li:hover {
+    color: #5559D9;
 }
 
-.card-text {
-    font-size: 12px;
+
+li.feature-item{
+    font-size: small;
 }
 
-@media only screen and (max-width: 600px) {
-    .heading{
-        font-size: larger;
-    }
-    .card-title {
-        font-size: 12px;
-    }
+.list-group-item {
+    border-width: 0 0 1px;
+}
 
-    .card-text {
-        font-size: 10px;
-    }
-    .submenu{
-        font-size: 10px !important;
-    }
+.contain .content {
+    display: none;
+    padding : 5px;
 }
